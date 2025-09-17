@@ -28,7 +28,7 @@
       "    \\usepackage{sectsty}",
       "    \\sectionfont{\\fontsize{12}{15}\\selectfont}",
       "    \\subsectionfont{\\fontsize{12}{15}\\selectfont}",
-      "bibliography: /Users/vmartinsdias/Zotero/references.bib",
+      "bibliography: ~/references.bib",
       "---",
       "",
       "Text can start here.",
@@ -105,7 +105,7 @@
       "        \\usepackage{tikz}",
       "        \\setbeamertemplate{footline}{%",
       "            \\hspace{-5pt}\\raisebox{5pt}{\\makebox[\\paperwidth]{\\hfill\\makebox[10pt]{\\tiny\\insertframenumber}}}}",
-      "bibliography: \"/Users/vmartinsdias/Zotero/references.bib\"",
+      "bibliography: \"~/references.bib\"",
       "---",
       "",
       "$0"
@@ -132,7 +132,7 @@
       "    center: true",
       "    center-title-slide: true",
       "    link-external-newwindow: true",
-      "bibliography: \"/Users/vmartinsdias/Zotero/references.bib\"",
+      "bibliography: \"~/references.bib\"",
       "---",
       "",
       "$0"
