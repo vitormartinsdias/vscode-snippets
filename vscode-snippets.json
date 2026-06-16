@@ -5,7 +5,7 @@
       "---",
       "title: \"$1\"",
       "author: \"$2\"",
-      "date: \"`r Sys.Date()`\"",
+      "date: \"`today`\"",
       "date-format: MM-DD-YYYY",
       "fig-align: center",
       "tbl-align: center",
@@ -144,5 +144,15 @@
       "$0"
     ],
     "description": "Quarto reveal.js (HTML) output"
+  },
+  "Create Private GitHub Repo": {
+    "prefix": "gh-private-repo",
+    "body": [
+      "gh repo create ${1:your-repo-name} --private --source=. --remote=origin",
+      "git add .",
+      "git commit -m \"Initial commit\"",
+      "git push -u origin main"
+    ],
+    "description": "Initialize a private GitHub repository using the GitHub CLI, commits current files, and pushes to main."
   }
 }
